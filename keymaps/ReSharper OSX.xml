@@ -15,6 +15,7 @@
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="shift alt l" />
   </action>
+  <action id="CheckinProject" />
   <action id="ClassNameCompletion">
     <keyboard-shortcut first-keystroke="shift alt space" />
   </action>
@@ -24,6 +25,7 @@
   </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl alt slash" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl c" />
   </action>
   <action id="Console.History.Browse" />
   <action id="Console.History.BrowseTW">
@@ -36,6 +38,9 @@
   <action id="CopyElement" />
   <action id="DatabaseView.AddAction">
     <keyboard-shortcut first-keystroke="meta alt enter" />
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="f5" />
   </action>
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="meta c" />
@@ -100,8 +105,14 @@
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="alt back_slash" />
   </action>
+  <action id="GotoNextBookmark">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl n" />
+  </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="shift alt page_down" />
+  </action>
+  <action id="GotoPreviousBookmark">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl p" />
   </action>
   <action id="GotoPreviousError">
     <keyboard-shortcut first-keystroke="shift alt page_up" />
@@ -140,9 +151,12 @@
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="shift ctrl back_space" />
   </action>
+  <action id="MethodHierarchy" />
   <action id="Move">
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="o" />
   </action>
+  <action id="MoveLineDown" />
+  <action id="MoveLineUp" />
   <action id="MoveStatementDown">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
     <keyboard-shortcut first-keystroke="shift ctrl alt down" />
@@ -175,15 +189,21 @@
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r" />
   </action>
-  <action id="ReplaceInPath" />
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
+  </action>
   <action id="RestoreDefaultLayout" />
   <action id="Resume" />
-  <action id="Run">
-    <keyboard-shortcut first-keystroke="f5" />
-  </action>
   <action id="SafeDelete">
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="d" />
     <keyboard-shortcut first-keystroke="alt back_space" second-keystroke="d" />
+  </action>
+  <action id="SavaAs" />
+  <action id="SaveAll">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+  <action id="SaveDocument">
+    <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
@@ -209,6 +229,10 @@
   </action>
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="ctrl f2" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl k" />
   </action>
   <action id="TypeHierarchy">
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="h" />
