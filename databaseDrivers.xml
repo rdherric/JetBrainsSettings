@@ -91,7 +91,7 @@
       <artifact name="ClickHouse" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="java.sql.Driver" name="Access" dialect="GenericSQL" driver-class="net.ucanaccess.jdbc.UcanaccessDriver">
+    <driver id="java.sql.Driver" name="Access" dialect="TSQL" driver-class="net.ucanaccess.jdbc.UcanaccessDriver">
       <url-template name="default" template="jdbc:ucanaccess://{file::identifier.sqlite};newdatabaseversion=V2010" />
       <option name="auto-commit" value="true" />
       <option name="auto-sync" value="true" />
