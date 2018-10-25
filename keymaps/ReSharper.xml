@@ -1,4 +1,4 @@
-<keymap version="1" name="ReSharper">
+<keymap version="1" name="ReSharper" parent="$default">
   <action id="$Copy">
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
