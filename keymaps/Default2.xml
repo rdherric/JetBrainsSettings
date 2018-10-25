@@ -1,5 +1,5 @@
 <keymap version="1" name="Default2" parent="$default">
-
+  <action>	
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
   <action id="$Cut">
